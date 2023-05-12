@@ -2,9 +2,7 @@
   position: absolute;
   width: 380px;
   height: 460px;
-  left: 435px;
-  top: 168px;
-
+  margin: 10px;
   background: linear-gradient(
     114.99deg,
     #471ca9 -0.99%,
@@ -13,6 +11,11 @@
   );
   box-shadow: -2.5777px 6.87386px 20.6216px rgba(0, 0, 0, 0.23);
   border-radius: 20px;
+}
+.logo {
+  position: absolute;
+  left: 4%;
+  top: 4%;
 }
 .followers {
   position: absolute;
@@ -48,13 +51,6 @@
 }
 
 .btn {
-  /* height: 50px;
-  width: 196px;
-  left: 92px;
-  top: 374px;
-  border-radius: 10.310786247253418px;
-  padding: 14px 28px 14px 28px; */
-
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -71,4 +67,30 @@
   background: #ebd8ff;
   box-shadow: 0px 3.43693px 3.43693px rgba(0, 0, 0, 0.25);
   border-radius: 10.3108px;
+}
+.line {
+  position: absolute;
+  width: 380px;
+  height: 8px;
+  left: 0px;
+  top: 214px;
+
+  background: #ebd8ff;
+  box-shadow: 0px 3.43693px 3.43693px rgba(0, 0, 0, 0.06),
+    inset 0px -1.71846px 3.43693px #ae7be3, inset 0px 3.43693px 2.5777px #fbf8ff;
+}
+.elipse {
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  left: 40%;
+  top: 42%;
+
+  /* outline: 8px solid red; */
+  border-radius: 50%;
+
+  background: #ebd8ff;
+  box-shadow: 0px 4.39163px 4.39163px rgba(0, 0, 0, 0.06),
+    inset 0px -2.19582px 4.39163px #ae7be3,
+    inset 0px 4.39163px 3.29372px #fbf8ff;
 }

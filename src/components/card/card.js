@@ -1,3 +1,5 @@
+import { Logo } from 'components/logo/logo';
+import { Boy, Images } from 'index';
 import css from './card.module.css';
 
 export default function Card() {
@@ -6,7 +8,15 @@ export default function Card() {
 
   return (
     <div className={css.container}>
-      <svg></svg>
+      <div className={css.logo}>
+        <Logo />
+      </div>
+      <Images />
+      <user>
+        <p className={css.line}></p>
+        <span className={css.elipse}></span>
+        <Boy />
+      </user>
       <p className={css.tweets}>{tweets} TWEETS</p>
       <p className={css.followers}>{followers} FOLLOWERS</p>
       <button className={css.btn} type="button">
