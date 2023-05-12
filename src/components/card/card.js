@@ -6,10 +6,6 @@ export default function Card() {
   const tweets = 777;
   const followers = 100500;
 
-  function name() {
-    followers += 1;
-  }
-
   return (
     <div className={css.container}>
       <div className={css.logo}>
@@ -23,7 +19,7 @@ export default function Card() {
       </div>
       <p className={css.tweets}>{tweets} TWEETS</p>
       <p className={css.followers}>{followers} FOLLOWERS</p>
-      <button className={css.btn} type="button" onClick={name}>
+      <button className={css.btn} type="button">
         FOLLOW
       </button>
     </div>
